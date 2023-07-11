@@ -1,0 +1,78 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+
+}
+.container{
+    width: 73%;
+    margin: auto;
+    border: none;
+}
+.card img{
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 73%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.container1{
+    /* border: 1px solid green; */
+    width: 100%;
+
+}
+   
+
+.container1:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.row1{
+    width: 100%;
+}
+footer{
+    margin:140px 0 200px 0;
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+a:after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0px;
+}
+
+a:hover{
+    color:#ffffff;
+}
+a:hover::after{
+    width: 100%;
+}
+
+.card{
+    border:none;
+}
